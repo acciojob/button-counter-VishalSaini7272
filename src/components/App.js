@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-
 import './../styles/App.css';
 
 const App = () => {
@@ -12,7 +11,7 @@ const handleClick = () => {
     <div>
    {/* Do not remove the main div */}
   <p> Button clicked {count} times </p>
-  <button onClick ={handleClick}> Click me </button> 
+  <button onClick = {handleClick}> Click me </button> 
   </div>
   );
 };
